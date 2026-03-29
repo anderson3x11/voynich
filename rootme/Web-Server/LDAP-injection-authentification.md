@@ -6,7 +6,7 @@ Bypass authentication mecanism.
 
 ## Analysis
 
-![Main page](../../assets/rootme/Web-Server/ldap-injection-authentification/main-page.png)
+![Main page](../../assets/rootme/Web-Server/ldap-injection/main-page.png)
 
 We get a simple login form with `username` and `password` fields. The backend likely builds an LDAP filter like:
 
