@@ -1,6 +1,6 @@
 # XSS - Server Side
 
-Statement : 
+## Statement : 
 
 This platform for issuing certificates of participation has just gone live. The developers assure you that they have followed best practices and escaped all user inputs before using them in their code...
 
@@ -18,7 +18,7 @@ This is a classic PDF generator vulnerability, if user input isn't properly sani
 
 Let's start by injecting `<b>test</b>` into the message field to check if inputs are escaped.
 
-![Bold text test — tags are escaped](../../assets/rootme/Web-Server/xss-server-side/bold-text-test.png)
+![Bold text test, tags are escaped](../../assets/rootme/Web-Server/xss-server-side/bold-text-test.png)
 
 The tags are rendered as plain text, so this input is properly escaped.
 
